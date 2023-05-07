@@ -4,14 +4,24 @@ import react from "@vitejs/plugin-react";
 export default defineConfig({
   base: "/Nuradil.github.io/",
   plugins: [react()],
+  optimizeDeps: {
+    include: ["@babel/plugin-transform-react-jsx"],
+  },
+  esbuild: {
+    jsxInject: `import React from 'react'`,
+  },
   build: {
-    rollupOptions: {
-      output: {
-        format: "esm",
-        mimeTypes: {
-          js: "application/javascript",
-        },
+    minify: true,
+    terserOptions: {
+      compress: {
+        drop_console: true,
+        drop_debugger: true,
       },
+    },
+  },
+  server: {
+    fs: {
+      allow: ["."],
     },
   },
 });
