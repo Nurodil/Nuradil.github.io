@@ -25,5 +25,5 @@ core.bare=false
 core.logallrefupdates=true
 core.symlinks=false
 core.ignorecase=true
-remote.origin.url=https://github.com/Nurodil/Nuradil.github.io
+remote.origin.url=https://github.com/Nurodil/Nurodil.github.io
 remote.origin.fetch=+refs/heads/*:refs/remotes/origin/*
