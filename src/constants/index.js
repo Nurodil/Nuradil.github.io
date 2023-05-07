@@ -152,7 +152,7 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "Ongoing",
     points: [
-      "As a Junior Frontend Developer, I am passionate about self-learning and staying up-to-date with the latest technologies. My portfolio showcases my proficiency in front-end languages and frameworks such as HTML, CSS, JavaScript and React. With strong problem-solving skills and a keen attention to detail, I am an asset to any development team.",
+      "As a Junior Frontend Developer, I am passionate about self-learning and staying up-to-date with the latest technologies. My portfolio showcases my proficiency in front-end languages and frameworks such as HTML, CSS, JavaScript and React. With strong problem-solving skills and a keen attention to detail, I am an asset to any development team. Below, I have provided a list of technologies that I am capable of using, as well as those that I am presently acquiring knowledge of!",
     ],
   },
 ];
@@ -160,26 +160,26 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
+      "I highly recommend Nuradil as a skilled frontend developer. He has a passion for learning new technologies and taking on challenging projects. Nuradil is a quick learner, team player, and excellent communicator. He goes above and beyond to ensure timely and high-quality project delivery, and I have no doubt he will continue to excel in his field.",
+    name: "Sherzod B",
+    designation: "JavaScript Engineer",
+    company: "Llama Commerce",
     image: "https://randomuser.me/api/portraits/women/4.jpg",
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
+      "Working with Nuradil on a social media management was an absolute pleasure! I strongly endorse him as a creative and detail-oriented content creator. He delivered high-quality content that perfectly captured different brand's voice when we worked together. He is an excellent communicator, team player, and pleasure to work with.",
+    name: "Komron T",
+    designation: "Graphic Designer",
+    company: "Najot Ta'lim",
     image: "https://randomuser.me/api/portraits/men/5.jpg",
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
+      "Nuradil's work as an ESL teacher was truly outstanding. He demonstrated exceptional proficiency in teaching English as a second language, and his students consistently achieved remarkable results. His teaching style was engaging and effective, and he had a natural ability to connect with his students and create a supportive learning environment.",
+    name: "Nonsy D",
+    designation: "ESL teacher",
+    company: "Ziyaker",
     image: "https://randomuser.me/api/portraits/women/6.jpg",
   },
 ];
